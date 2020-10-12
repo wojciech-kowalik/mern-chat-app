@@ -1,0 +1,4 @@
+node_modules
+.vscode
+node_chat_app.code-workspace
+.env
