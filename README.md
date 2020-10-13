@@ -12,7 +12,7 @@
 
 ## Run the server app
 
-    yarn start
+    yarn dev
 
 # REST API
 
@@ -22,7 +22,7 @@
 
 `GET /messages`
 
-    curl -i -H 'Accept: application/json' http://localhost:3000/messages
+    curl -i -H 'Accept: application/json' http://localhost:5000/messages
 
 ### Response
 
@@ -35,7 +35,7 @@
 
 `POST /messages`
 
-    curl --location --request POST 'localhost:3000/messages' --header 'Content-Type: application/json' --data-raw '{"name": "Pete", "message": "Hello!"}'
+    curl --location --request POST 'localhost:5000/messages' --header 'Content-Type: application/json' --data-raw '{"name": "Pete", "message": "Hello!"}'
 
 ### Response
 
