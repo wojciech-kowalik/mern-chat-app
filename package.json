@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "test": "jasmine",
-    "start": "nodemon"
+    "start": "node src/app.js",
+    "start:dev": "nodemon"
   },
   "license": "MIT",
   "dependencies": {
